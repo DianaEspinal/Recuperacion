@@ -1,4 +1,10 @@
 <?php
+
+namespace lib;
+
+use PDO;
+use PDOException;
+
 class Database {
     private $host = "db";
     private $db_name = "blog_sistemas";
