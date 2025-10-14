@@ -11,7 +11,7 @@ class DiasController {
             return ob_get_clean();
         } else {
             http_response_code(404);
-            return "Día {$n} no encontrado 💔";
+            return "Día {$n} no encontrado.";
         }
     }
 }
