@@ -1,14 +1,12 @@
 <?php
 use lib\Route;
 use app\controllers\HomeController;
-use app\controllers\PageController;
-use app\controllers\VisitasController;
+use app\controllers\DiasController;
 
-Route::get("/", [HomeController::class, "index"]);
-Route::get("/mi-info", [PageController::class, "miInfo"]);
-Route::get("/dia/:slug", [PageController::class, "dia"]);
-Route::get("/visitas", [VisitasController::class, "index"]);
-Route::post("/visitas", [VisitasController::class, "index"]);
+$base = getenv('APP_URL_BASE');
+Route::init($base === false ? '/' : $base);
+
+Route::get("/",        [HomeController::class, "inicio"]);
+Route::get("/inicio",  [HomeController::class, "inicio"]);
 
 Route::dispatch();
-?>

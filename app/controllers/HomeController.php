@@ -2,7 +2,15 @@
 namespace app\controllers;
 
 class HomeController {
-    public function index() {
-        require __DIR__ . '/../views/home.php';
-    }
+  private function render($view, $data = []) {
+    extract($data);
+    ob_start();
+    include "../app/views/{$view}.php";
+    $content = ob_get_clean();
+    include "../app/views/layout.php";
+  }
+
+  public function inicio(){
+    return $this->render('home', ['title' => 'Inicio']);
+  }
 }

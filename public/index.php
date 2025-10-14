@@ -1,4 +1,4 @@
 <?php
-require_once __DIR__ . '/../autoloader.php';
-require_once __DIR__ . '/../routes/web.php';
+require_once("../autoloader.php");
+require_once("../routes/web.php");
 ?>
