@@ -25,13 +25,13 @@
   <main class="container">
     <section class="intro">
       <h2>Día 1: Bienvenida e Inauguración del Evento</h2>
-      <iFra controls class="video-vertical">
-        <source src="" type="video/mp4">
+      <video controls class="video-vertical">
+        <source src="/videos/Bienvenida .mp4" type="video/mp4">
         Tu navegador no soporta el video.
-      </iFra>
+      </video>
       <h2>El ingeniero Franco fue el maestro de ceremonia del evento, presentando a los integrantes de la mesa de honor y coordinando toda la inauguración.</h2>
       <video controls class="video-vertical">
-        <source src="" type="video/mp4">
+        <source src="/videos/apertura.mp4" type="video/mp4">
         Tu navegador no soporta el video.
       </video>
     </section>
@@ -56,11 +56,11 @@ El valor real de $1, viene siendo 9-10 centavos, cuando el banco ofrece préstam
 Un bitcoin está formado por 100M de satochis, y el último bitcoin se va crear hasta el 2140, es un software autónomo, cada 4 años se reduce la cantidad de bitcoin que se van creando, bitcoin inició en 2008- 2009.</p>
       </div>
       <video controls class="video-vertical">
-        <source src="" type="video/mp4">
+        <source src="/videos/Ponencia1.mp4" type="video/mp4">
         Tu navegador no soporta el video.
       </video>
       <video controls class="video-vertical">
-        <source src="" type="video/mp4">
+        <source src="/videos/Ponencia1.1.mp4" type="video/mp4">
         Tu navegador no soporta el video.
       </video>
     </section>
@@ -86,11 +86,11 @@ Los elementos de un sistema cognitivo de la machine learning, tiene un leguaje s
         </p>
       </div>
       <video controls class="video-vertical">
-        <source src="" type="video/mp4">
+        <source src="/videos/Ponencia2.mp4" type="video/mp4">
         Tu navegador no soporta el video.
       </video>
       <video controls class="video-vertical">
-        <source src="" type="video/mp4">
+        <source src="/videos/Ponencia2.2.mp4" type="video/mp4">
         Tu navegador no soporta el video.
       </video>
     </section>
