@@ -9,7 +9,7 @@
   <h1>Semana de Sistemas 2025</h1>
   <nav>
     <a href="/">Inicio</a>
-    <a href="../views/dia1.php">Día 1</a>
+    <a href="/dia/1">Día 1</a>
     <a href="/dia/2">Día 2</a>
     <a href="/dia/3">Día 3</a>
     <a href="/dia/4">Día 4</a>
