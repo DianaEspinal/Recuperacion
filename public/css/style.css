@@ -1,0 +1,187 @@
+body {
+  font-family: 'Cuprum', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; 
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.intro img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+
+.intro-texto {
+  max-width: 500px;
+}
+
+.intro-texto h2 {
+  margin-top: 0;
+  color: #003366;
+  font-size: 1.8rem;
+}
+
+.intro-texto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+body {
+  font-family: 'Cuprum', sans-serif;
+  margin: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenedor general */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Secciones */
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+section h3 {
+  color: #005599;
+  margin-top: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Videos */
+video {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.video-vertical {
+  max-width: 400px;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Contenido de ponencias */
+.contenido {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contenido img {
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Hackatón */
+.grupos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.grupos article {
+  background: #f2f7fb;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.grupos img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
