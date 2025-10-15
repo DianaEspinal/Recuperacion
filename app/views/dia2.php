@@ -22,5 +22,17 @@
             <a href="/visitas">Visitas</a>
         </nav>
     </header>
+    <main class="container">
+        <section class="intro">
+            <h2>Día 2: Talleres de conocimiento.</h2>
+        </section>
+        <section class="ponencia">
+            <h2>Taller #1 - Toma de decisiones estratégicas basadas en datos</h2>
+            <h3>Impartido por: MSc. Enrique Cortez</h3>
+            <div class="contenido">
+                <img src="" alt="">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
