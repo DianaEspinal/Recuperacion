@@ -49,6 +49,25 @@
                 Tu navegador no soporta el video.
             </video>
         </section>
+        <section class="ponencia">
+            <h2>Taller #2 - Construyendo un CRUD en minutos con Laravel y Filament.</h2>
+            <h3>Impartido por:  Ing. Gabriel Castillo</h3>
+            <div class="contenido">
+                <img src="/images/taller2.png" alt="">
+                <img src="/images/taller2.2.png" alt="">
+                <img src="/images/taller2.3.png" alt="">
+                <p>Durante este taller, el Ing. Gabriel nos introdujo al desarrollo moderno utilizando Laravel y Filament, dos herramientas altamente eficientes para la creación de 
+                    aplicaciones web escalables. Comenzó explicando la documentación oficial de ambos frameworks, destacando su claridad, 
+                    estructura modular y el enfoque práctico que ofrecen. nos guió paso a paso en el proceso de instalación de Laravel y Filament, resaltando cómo estas herramientas 
+                    permiten ahorrar tiempo significativo al momento de desarrollar proyectos complejos. Gracias a sus componentes integrados y su arquitectura bien definida, es posible construir interfaces 
+                    administrativas, formularios y sistemas de gestión de datos con rapidez y eficacia.
+                    Uno de los puntos clave que el ingeniero enfatizó fue la importancia de contar con una conexión sólida y bien configurada a la base de datos. Esta base es esencial para que Laravel y Filament funcionen correctamente, ya que gran parte de su 
+                    funcionalidad depende de la interacción fluida con los datos almacenados.
+                   Como demostración práctica, el Ing. Gabriel desarrolló en tiempo real un proyecto funcional. 
+                   Este proyecto permitía agregar productos con atributos como nombre, precio, fotografía, tallas y otros detalles relevantes. La rapidez con la que se logró implementar esta solución dejó en evidencia el poder de Laravel y Filament para acelerar el desarrollo.
+                </p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
