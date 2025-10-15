@@ -24,11 +24,12 @@
 
   <main class="container">
     <section class="intro">
-      <h2>Sobre mí</h2>
+      <h2>Mi información:</h2>
       <div class="perfil">
         <img src="/images/yoInfo.jpg" alt="Foto de Diana" class="foto-perfil">
         <div>
-          <h3>Diana Espinal</h3>
+          <h3>Diana Estefani Espinal Carcamo</h3>
+          <p><strong>Edad:</strong> 23 años.</p>
           <p><strong>Carrera:</strong> Ingeniería de Sistemas Informáticos</p>
           <p><strong>Centro educativo:</strong> Facultad Multidisciplinaria Oriental (FMO).</p>
           <p><strong>Correo:</strong> ec22003@ues.edu.sv</p>
