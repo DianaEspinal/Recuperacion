@@ -10,4 +10,5 @@ Route::get("/",        [HomeController::class, "inicio"]);
 Route::get("/inicio",  [HomeController::class, "inicio"]);
 Route::get("/dia/:n",  [DiasController::class,  "ver"]);
 
+
 Route::dispatch();

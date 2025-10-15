@@ -185,3 +185,26 @@ img {
   border-radius: 8px;
 }
 
+.foto-perfil {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.perfil a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.perfil a:hover {
+  text-decoration: underline;
+}
