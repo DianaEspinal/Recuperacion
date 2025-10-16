@@ -71,7 +71,7 @@
             </div>
         </section>
         <section class="ponencia">
-            <h2>Taller #3 - A Multimodal – Creando el futuro visual e inteligente con n8n.</h2>
+            <h2>Taller #4 - A Multimodal – Creando el futuro visual e inteligente con n8n.</h2>
             <h3>Impartido por: MSc. José Salmerón</h3>
             <div class="contenido">
                 <img src="/images/taller3.png" alt="">
