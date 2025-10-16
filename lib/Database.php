@@ -19,16 +19,11 @@ class Database {
                                   $this->username, $this->password);
             $this->conn->exec("set names utf8");
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Conectado<br>";
         } catch(PDOException $exception) {
-            echo "Error de conexión: " . $exception->getMessage();
+            die ("Error de conexión: " . $exception->getMessage());
         }
         return $this->conn;
     }
 
 }
-
-$database = new Database();
-$conn_temp = $database->getConnection();
-
 ?>
