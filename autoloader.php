@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set('America/El_Salvador');
+
 spl_autoload_register(function($clase){
   $ruta = "../".str_replace("\\","/",$clase).".php";
   if (file_exists($ruta)) {
