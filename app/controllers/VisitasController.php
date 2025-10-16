@@ -1,28 +1,32 @@
 <?php
 namespace app\controllers;
 
-use app\models\visitas;
-use models\Visits;
+use app\models\visita;
+use lib\Database;
 
 class VisitasController {
     public function index() {
-        session_start();
-        $model = new Visits();
+        $db = (new Database())->getConnection();
+        $modelo = new Visita($db);
+        $visitas = $modelo->obtenerTodas();
+        require_once('/../views/visitas.php');
+    }
 
-        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $model->create(
-                $_POST['nombre'],
-                $_POST['email'],
-                $_POST['comentario'],
-                $_SERVER['REMOTE_ADDR'],
-                $_SERVER['HTTP_USER_AGENT']
-            );
-            $_SESSION['success'] = 'Visita registrada correctamente.';
-            header('Location: /visitas');
-            exit;
+    public function guardar() {
+         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $nombre = $_POST['nombre'] ?? '';
+            $correo = $_POST['correo'] ?? '';
+            $comentario = $_POST['comentario'] ?? '';
+
+            $db = (new Database())->getConnection();
+            $modelo = new Visita($db);
+
+            if ($modelo->registrar($nombre, $correo, $comentario)) {
+                header("Location: /visitas");
+                exit;
+            } else {
+                echo "Error al registrar la visita.";
+            }
         }
-
-        $visits = $model->all();
-        require __DIR__ . '/../views/visitas.php';
     }
 }
