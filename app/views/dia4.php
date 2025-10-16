@@ -23,6 +23,36 @@
             <a href="/visitas">Visitas</a>
         </nav>
     </header>
-    
+    <main class="container">
+        <section class="intro">
+            <h2>Día 4: Feria de Logros <br>
+               y Comelona de Pupusas.</h2>
+        </section>
+        <section class="ponencia">
+            <h2>Feria de Logros.</h2>
+            <div class="contenido">
+                <img src="" alt="">
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <video controls class="video-vertical">
+                <source src="/videos/" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </section>
+        
+        <section class="ponencia">
+            <h2>Comelona de Pupusas.</h2>
+            <div class="contenido">
+                <img src="" alt="">
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <video controls class="video-vertical">
+                <source src="/videos/" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </section>
+    </main>
 </body>
 </html>
