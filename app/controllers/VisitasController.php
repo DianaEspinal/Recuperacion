@@ -9,7 +9,7 @@ class VisitasController {
         $db = (new Database())->getConnection();
         $modelo = new Visita($db);
         $visitas = $modelo->obtenerTodas();
-        require_once('/../views/visitas.php');
+        require_once __DIR__. '/../views/visitas.php';
     }
 
     public function guardar() {
