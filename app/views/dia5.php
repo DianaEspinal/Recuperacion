@@ -46,7 +46,10 @@
             <div class="contenido">
                 <img src="" alt="">
                 <img src="" alt="">
-                <p></p>
+                <p>Se realizo una actividad recreativa, con el juego Bingo.
+                    Se hizo mediante el proyecto de estudiantes de HDP 25, y 100 creditos costaban $1.oo, lo que era equivalente a 
+                    un cartón de juego.
+                </p>
             </div>
             <video controls class="video-vertical">
                 <source src="/videos/" type="video/mp4">
