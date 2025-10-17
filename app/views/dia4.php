@@ -32,6 +32,16 @@
         </section>
         <section class="ponencia">
             <h2>Feria de Logros.</h2>
+            <section class="ponencia">
+                <div class="contenido">
+            <img src="/images/FeriadeLogros2.jpg" alt="">
+            <img src="/images/FeriadeLogros.jpg" alt="">
+            <img src="/images/FeriadeLogros3.jpg" alt="">
+            </div>
+            </section>
+            <section class="contenido">
+                <h2>Stands de Proyectos.</h2>
+            </section>
             <div class="contenido">
                 <h3>Proyecto: El radar de Moises.</h3>
                 <img src="/images/standMoises1.jpg" alt="">
