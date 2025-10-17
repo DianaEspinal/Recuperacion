@@ -44,18 +44,77 @@
         <section class="ponencia">
             <h2>Bingo.</h2>
             <div class="contenido">
-                <img src="" alt="">
-                <img src="" alt="">
                 <p>Se realizo una actividad recreativa, con el juego Bingo.
                     Se hizo mediante el proyecto de estudiantes de HDP 25, y 100 creditos costaban $1.oo, lo que era equivalente a 
                     un cartón de juego.
                 </p>
+                <img src="/images/Bingo2.2.jpg" alt="">
+                <img src="/images/dia5Bingo.jpg" alt="">
+                <img src="/images/Bingo2.3.jpg" alt="">
             </div>
-            <video controls class="video-vertical">
-                <source src="/videos/" type="video/mp4">
+        </section>
+        <div class="grupos">
+           <article>
+             <h2>Ganador primera ronda.</h2>
+            <p>Se gano una camisa, una gorra y una tarjeta de regalo para uñas acrilicas.
+                </p>
+                <video controls class="video-vertical">
+                <source src="/videos/ganador1Bingo.mp4" type="video/mp4">
                 Tu navegador no soporta el video.
             </video>
-        </section>
+           </article>
+           <article>
+             <h2>Ganador segunda ronda.</h2>
+            <p>Se gano unos audifonos inalambricos.
+                </p>
+                <video controls class="video-vertical">
+                <source src="/videos/Ganador2Bingo.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+           </article>
+           <article>
+             <h2>Ganador tercera ronda.</h2>
+            <p>Se gano una bocina.
+                </p>
+                <video controls class="video-vertical">
+                <source src="/videos/ganador3Bingo.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+           </article>
+           <article>
+             <h2>Ganador cuarta ronda.</h2>
+            <p>Se una tarjeta de regalo para manicura.
+                </p>
+                <img src="/images/ganador4Bingo.jpg" alt="">
+           </article>
+           <article>
+             <h2>Ganador quinta ronda.</h2>
+            <p>Se gano unos auriculares inalambricos.
+                </p>
+                <video controls class="video-vertical">
+                <source src="/videos/ganador5Bingo.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+           </article>
+           <article>
+             <h2>Ganador sexta ronda.</h2>
+            <p>Se gano unos auriculares inalambricos.
+                </p>
+                <video controls class="video-vertical">
+                <source src="/videos/ganador5Bingo.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+           </article>
+           <article>
+             <h2>Ganador septima ronda.</h2>
+            <p>Se gano unos auriculares inalambricos.
+                </p>
+                <video controls class="video-vertical">
+                <source src="/videos/ganador5Bingo.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+           </article>
+        </div>
         
         <section class="ponencia">
             <h2>Torneo de Videojuegos.</h2>
