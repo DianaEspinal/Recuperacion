@@ -42,82 +42,59 @@
             <section class="contenido">
                 <h2>Stands de Proyectos.</h2>
             </section>
-            <div class="contenido">
+            <div class="grupos">
+                <article>
                 <h3>Proyecto: El radar de Moises.</h3>
                 <img src="/images/standMoises1.jpg" alt="">
-                <img src="/images/standMoises.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Parqueo automático con Arduino y Aplicación Móvil.</h3>
                 <img src="/images/StandParqeo.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Juego de realidad aumentada.</h3>
                 <img src="/images/StandJuegoRealidad.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Tienda en linea con ARCore.</h3>
                 <img src="/images/StandTiendaArcore.png" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Sistema de comandas en tiempo real.</h3>
                 <img src="/images/standBar.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Sistema de cajero automático.</h3>
                 <img src="/images/standCajero.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Sistema de cajero automático C# Bank.</h3>
                 <img src="/images/standSharpBank.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Innova rent.</h3>
                 <img src="/images/standInnovaRent.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Blog de teoria de sistemas..</h3>
                 <img src="/images/standTSI.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Juego de Bingo.</h3>
                 <img src="/images/standBingo.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Sistema de gestion de citas y pagos de un CarWash.</h3>
                 <img src="/images/standCarWash.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Biblioteca virtual CUBO.</h3>
                 <img src="/images/standCubo.jpg" alt="">
-            </div>
-            <br>
-            <br>
-            <div class="contenido">
+            </article>
+            <article>
                 <h3>Proyecto: Sistema de gestion de Farmacia.</h3>
                 <img src="/images/standFarmacia.jpg" alt="">
+            </article>
             </div>
         </section>
         <br>
@@ -133,12 +110,14 @@
             </video>
         </section>
 
-        <section class="intro">
+        <section class="ponencia">
             <h2>Fotos.</h2>
+            <section class="intro">
             <img src="/images/amigosJueves.jpg" alt="">
             <img src="/images/feriaFotoMia.jpg" alt="">
             <img src="/images/amigos2J.jpg" alt="">
             <img src="/images/amigaJueves.jpg" alt="">
+        </section>
         </section>
 
         <section class="ponencia">

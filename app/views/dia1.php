@@ -33,16 +33,18 @@
                 <source src="/videos/Bienvenida .mp4" type="video/mp4">
                 Tu navegador no soporta el video.
             </video>
-            <h2>El ingeniero Franco fue el maestro de ceremonia del evento, presentando a los integrantes de la mesa de honor y coordinando toda la inauguración.</h2>
+            <p>El ingeniero Franco fue el maestro de ceremonia del evento, presentando a los integrantes de la mesa de honor y coordinando toda la inauguración.</p>
             <video controls class="video-vertical">
                 <source src="/videos/apertura.mp4" type="video/mp4">
                 Tu navegador no soporta el video.
             </video>
         </section>
-        <section class="intro">
-            <h2>Fotos.</h2>
+        <section class="ponencia">
+             <h2>Fotos.</h2>
+            <section class="intro">
             <img src="/images/grupito.jpg" alt="">
             <img src="/images/yosola.JPG" alt="">
+        </section>
         </section>
 
         <section class="ponencia">
