@@ -24,7 +24,11 @@
 
     <main class="container">
         <section class="intro">
-            <h2>Día 1: Bienvenida e Inauguración del Evento</h2>
+            <h2>Día 1: Bienvenida e inaguración de la Semana de Sistemas 2025.</h2>
+        </section>
+
+        <section class="ponencia">
+            <h2>Bienvenida.</h2>
             <video controls class="video-vertical">
                 <source src="/videos/Bienvenida .mp4" type="video/mp4">
                 Tu navegador no soporta el video.
