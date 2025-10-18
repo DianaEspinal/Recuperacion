@@ -122,15 +122,14 @@
 
         <section class="ponencia">
             <h2>Torneo de Videojuegos.</h2>
+            <p>El torneo se realizo en el transcurso de la tarde, y fue sobre el juego 
+                    de "Clash Royale", se sacó 1er y 2do Lugar.
+                </p>
             <div class="contenido">
-                <img src="" alt="">
-                <img src="" alt="">
-                <p></p>
+                <img src="/images/torneo2.jpg" alt="">
+                <img src="/images/torneoVideoJuego.jpg" alt="">
+                <img src="/images/torneo3.jpg" alt="">
             </div>
-            <video controls class="video-vertical">
-                <source src="/videos/" type="video/mp4">
-                Tu navegador no soporta el video.
-            </video>
         </section>
     </main>
 </body>

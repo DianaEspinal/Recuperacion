@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Inicio - Semana de Sistemas 2025</title>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/carrusel.css">
   <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
     <h1>Semana de Sistemas 2025</h1>
@@ -23,7 +26,7 @@
 
   <main>
     <section class="intro">
-      <img src="/images/SDS25.jpg" alt="Semana de Sistemas 2025">
+      <img src="/images/SDS25.jpg" alt="">
       <div class="intro-texto">
         <h2>Bienvenido al Blog Semana de Sistemas 2025</h2>
         <p>Este blog documenta todas las actividades asistidas durante la Semana de Sistemas 2025. Encontrarás diversos videos e imágenes que muestran el festejo de esta tan esperada semana.</p>
@@ -32,4 +35,5 @@
     </section>
   </main>
 </body>
+
 </html>
