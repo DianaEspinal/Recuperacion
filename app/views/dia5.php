@@ -27,7 +27,7 @@
     </header>
     <main class="container">
         <section class="intro">
-            <h2>Día 4: Actividades de Entretenimiento.</h2>
+            <h2>Día 5: Actividades de Entretenimiento.</h2>
         </section>
         <section class="ponencia">
             <h2>Bingo.</h2>
